@@ -1,0 +1,32 @@
+/* App.css */
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.weather-info {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}

@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+}
+#best-selling-courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.course img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.course h2{
+    text-align: center;
+    font-family: 'Verdana';
+    font-size: 20px;
+}
+.course p{
+    text-align: center;
+    font-family: 'Verdana';
+    font-size: 20px;
+}
+
+.course{
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 10px gray;
+}
+    
+.course div{
+    padding: 20px;
+}
+@media only screen and (max-width:600px){
+    .course{
+        width:30%;
+    }
+}
+@media only screen and (min-width:750px){
+    .course{
+        width:30%;
+    }
+}
+@media only screen and (min-width:999px){
+    .course{
+        width:20%;
+    }
+}
+@media only screen and (min-width:1200px){
+    .course{
+        width:20%;
+    }
+}
